@@ -52,7 +52,7 @@ spec:
         kind: Cluster
         spec:
           forProvider:
-            region: us-west-2
+            region: eu-north-1
             roleArnSelector:
               matchControllerRef: true
               matchLabels:
@@ -78,7 +78,7 @@ spec:
         kind: ClusterAuth
         spec:
           forProvider:
-            region: us-west-2
+            region: eu-north-1
             clusterNameSelector:
               matchControllerRef: true
       name: kubernetesClusterAuth
@@ -157,7 +157,7 @@ spec:
         kind: NodeGroup
         spec:
           forProvider:
-            region: us-west-2
+            region: eu-north-1
             clusterNameSelector:
               matchControllerRef: true
             nodeRoleArnSelector:
