@@ -28,3 +28,5 @@ This repository is a starting point. You should be feel encouraged to:
 2) tweak the existing API definition for EKS to your needs
 
 Upbound will automatically detect the commits you make in your repo and build the configuration package for you. To learn more about how to build APIs for your managed control planes in Upbound, read the guide on [Upbound's docs](https://docs.upbound.io).
+
+testing 123
